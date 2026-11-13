@@ -45,9 +45,9 @@ function CountUp({ target, suffix }: { target: number; suffix: string }) {
 
 const domains = [
   "Banking & Finance",
+  "Insurance",
   "Healthcare",
   "Retail",
-  "Insurance",
 ];
 
 export default function About() {
@@ -80,14 +80,20 @@ export default function About() {
             <p className="text-[#C8C4BC] text-lg leading-relaxed mb-6 font-light">
               Specializing in{" "}
               <span className="text-[#F8F5EF] font-medium">UiPath, Blue Prism, and Power Automate</span>,
-              I focus on stabilizing, optimizing, and scaling automation processes. My mission is to
-              transform business operations by integrating{" "}
-              <span className="text-[#C9A96E] font-medium">AI/ML into RPA workflows</span> to drive
-              efficiency and cost control.
+              I&apos;m now extending automation into the{" "}
+              <span className="text-[#C9A96E] font-medium">Agentic AI era</span> — building multi-agent
+              systems with{" "}
+              <span className="text-[#F8F5EF] font-medium">LangChain and CrewAI</span>, implementing{" "}
+              <span className="text-[#F8F5EF] font-medium">RAG pipelines</span> for intelligent knowledge
+              retrieval, and using{" "}
+              <span className="text-[#F8F5EF] font-medium">LangSmith</span> to evaluate and monitor LLM
+              workflows in production.
             </p>
             <p className="text-[#C8C4BC] text-lg leading-relaxed mb-10 font-light">
-              Delivering comprehensive process documentation and innovative automation solutions across
-              multiple high-impact domains.
+              My mission is to transform business operations by combining traditional RPA with{" "}
+              <span className="text-[#C9A96E] font-medium">AI agents and LLMs</span> — moving from
+              rule-based bots to intelligent, reasoning-driven automation that drives efficiency and
+              cost control.
             </p>
 
             {/* Domain tags */}
