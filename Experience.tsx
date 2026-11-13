@@ -6,7 +6,7 @@ const experiences = [
   {
     id: 1,
     company: "Infosys",
-    role: "Senior RPA Developer/Agentic AI Engineer",
+    role: "Senior RPA Developer / Agentic AI Engineer",
     client: "Carrier Global & Wabtec",
     period: "Apr 2023 – Present",
     duration: "3 yrs",
